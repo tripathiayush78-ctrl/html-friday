@@ -1,0 +1,54 @@
+{
+  "chartDataStore": {
+    "active_employees": {
+      "keywords": ["active employee", "headcount", "how many employees", "employee count", "workforce"],
+      "title": "Active Employees — Last 10 Years",
+      "categories": ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "segments": {
+        "Overall": [
+          { "name": "Full Time", "data": [120, 135, 150, 170, 165, 190, 210, 230, 245, 260] },
+          { "name": "Contractors", "data": [30, 35, 40, 38, 42, 50, 55, 60, 58, 65] }
+        ],
+        "Only Full Time": [
+          { "name": "Full Time", "data": [120, 135, 150, 170, 165, 190, 210, 230, 245, 260] }
+        ],
+        "Only Contractors": [
+          { "name": "Contractors", "data": [30, 35, 40, 38, 42, 50, 55, 60, 58, 65] }
+        ]
+      }
+    },
+    "attrition_rate": {
+      "keywords": ["attrition", "turnover", "who left", "resign", "churn"],
+      "title": "Annual Attrition Rate (%)",
+      "categories": ["2021", "2022", "2023", "2024", "2025"],
+      "segments": {
+        "Overall": [
+          { "name": "Full Time", "data": [8, 9, 11, 7, 6] },
+          { "name": "Contractors", "data": [15, 18, 20, 14, 12] }
+        ],
+        "Only Full Time": [
+          { "name": "Full Time", "data": [8, 9, 11, 7, 6] }
+        ],
+        "Only Contractors": [
+          { "name": "Contractors", "data": [15, 18, 20, 14, 12] }
+        ]
+      }
+    }
+  },
+  "initialChatHistory": [
+    {
+      "id": "seed-1",
+      "sender": "ai",
+      "timestamp": 1735689600000,
+      "payload": {
+        "type": "text",
+        "text": "Hi, I'm Friday. Ask me about active employees or attrition rate to see a live chart."
+      }
+    }
+  ],
+  "sidebarThreads": [
+    { "id": "t1", "title": "Q4 Headcount Review", "date": "2 days ago" },
+    { "id": "t2", "title": "Contractor Attrition Deep-Dive", "date": "5 days ago" },
+    { "id": "t3", "title": "2025 Hiring Plan", "date": "1 week ago" }
+  ]
+}

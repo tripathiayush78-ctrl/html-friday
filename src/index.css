@@ -1,0 +1,17 @@
+/* This file intentionally contains NO component styling — every visual
+   decision (colors, radii, spacing) lives in theme.js via Antd's
+   ConfigProvider, or as inline style props on the components themselves,
+   per the assignment's "use the component library, don't hand-roll CSS"
+   spirit. This file only resets the browser defaults that would otherwise
+   stop a 100vh flex layout from filling the screen. */
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
